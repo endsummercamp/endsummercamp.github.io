@@ -11,96 +11,8 @@
   {% endfor %} -->
 <!-- </ul> -->
 
-<style>
-  #youtube_frame iframe {
-    width: 560px;
-    height: 315px;
-  }
+<link rel="stylesheet" href="index.css">
 
-  #main_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  #main_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    font-size: 22px;
-  }
-
-  #main_text a {
-    color: royalblue;
-  }
-
-  #right_content {
-    box-shadow: 1px 1px 13px #f2f2f2;
-    padding: 25px;
-    border-radius: 3px;
-    color: #737373;
-    margin-bottom: 20px;
-
-  }
-
-  #right_content a {
-    color: #737373;
-    text-decoration: none;
-
-  }
-
-  #right_content h1 {
-    color: #3a3a3a;
-  }
-
-  #date {
-    color: #5f5f5f;
-  }
-
-  @media (max-width: 1200px) {
-    #youtube_frame iframe {
-      width: 420px;
-      height: 236.25px;
-    }
-
-    #main_content {
-      font-size: 18px;
-    }
-  }
-
-  @media (max-width: 850px) {
-    #main_container {
-      flex-direction: column;
-    }
-
-    #main_text {
-      margin-bottom: 40px;
-      margin-top: 40px;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-
-
-  }
-
-  @media (max-width: 600px) {
-
-    #youtube_frame {
-      width: 100%;
-    }
-
-    #youtube_frame iframe {
-      width: 100%;
-    }
-
-  }
-</style>
 <div id="main_container">
   <div id="main_content">
     <div id="youtube_frame">
@@ -207,8 +119,7 @@
   // Set the date we're counting down to
   var countDownDate = new Date("Sep 2, 2025 14:00:00").getTime();
 
-  // Update the count down every 1 second
-  var x = setInterval(function () {
+  function f() {
     // Get today's date and time
     var now = new Date().getTime();
 
@@ -240,7 +151,12 @@
     document.getElementById("hours").innerHTML = hours;
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
-  }, 1000);
+  }
+
+  // Update the count down every 1 second
+  var x = setInterval(f, 1000);
+
+  f();
 </script>
 
 
