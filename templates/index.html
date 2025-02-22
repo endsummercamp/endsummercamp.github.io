@@ -1,0 +1,247 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- <h1 class="title">
+  {{ section.title }}
+</h1> -->
+<!-- <ul> -->
+<!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
+<!-- {% for page in section.pages %}
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  {% endfor %} -->
+<!-- </ul> -->
+
+<style>
+  #youtube_frame iframe {
+    width: 560px;
+    height: 315px;
+  }
+
+  #main_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+  }
+
+  #main_text a {
+    color: royalblue;
+  }
+
+  #right_content {
+    box-shadow: 1px 1px 13px #f2f2f2;
+    padding: 25px;
+    border-radius: 3px;
+    color: #737373;
+    margin-bottom: 20px;
+
+  }
+
+  #right_content a {
+    color: #737373;
+    text-decoration: none;
+
+  }
+
+  #right_content h1 {
+    color: #3a3a3a;
+  }
+
+  #date {
+    color: #5f5f5f;
+  }
+
+  @media (max-width: 1200px) {
+    #youtube_frame iframe {
+      width: 420px;
+      height: 236.25px;
+    }
+
+    #main_content {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 850px) {
+    #main_container {
+      flex-direction: column;
+    }
+
+    #main_text {
+      margin-bottom: 40px;
+      margin-top: 40px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+  }
+
+  @media (max-width: 600px) {
+
+    #youtube_frame {
+      width: 100%;
+    }
+
+    #youtube_frame iframe {
+      width: 100%;
+    }
+
+  }
+</style>
+<div id="main_container">
+  <div id="main_content">
+    <div id="youtube_frame">
+      <iframe id="youtube" src="https://www.youtube.com/embed/UMzpQJ53cXQ?si=vgR-lX-5CIXI6r2X"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div id="main_text">
+      ESC è un incontro non-profit di persone interessate all’<a
+        href="http://it.wikipedia.org/wiki/Hacking">Hacking</a>, al <a
+        href="http://it.wikipedia.org/wiki/Copyleft">Software Libero</a> e al <a
+        href="http://it.wikipedia.org/wiki/Maker">DIY</a>. Il contenuto
+      dell’evento è in continua evoluzione e viene creato dai suoi partecipanti.
+    </div>
+  </div>
+  <div id="right_content">
+    <h1>End Summer Camp {21}</h1>
+
+    <div id=date>2-7 Settembre 2025</div>
+    <a href="https://www.openstreetmap.org/#map=18/45.63542/12.54626">Parco della Scultura in Architettura<br>
+      San Donà di Piave (VE)</a><br>
+
+    <!-- Countdown Wrapper -->
+    <div class="countdown-wrapper" id="countdown">
+      <div class="time-block">
+        <div class="time-number" id="days">0</div>
+        <div class="time-label">Days</div>
+      </div>
+      <div class="time-block">
+        <div class="time-number" id="hours">0</div>
+        <div class="time-label">Hours</div>
+      </div>
+      <div class="time-block">
+        <div class="time-number" id="minutes">0</div>
+        <div class="time-label">Minutes</div>
+      </div>
+      <!-- <div class="time-block">
+        <div class="time-number" id="seconds">0</div>
+        <div class="time-label">Seconds</div>
+      </div> -->
+    </div>
+
+    <!-- Where to show a finish message (optional) -->
+    <div class="finished-message" id="finished-message"></div>
+  </div>
+</div>
+
+
+
+
+<style>
+  /* Countdown Container */
+  .countdown-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #eee;
+    color: #fff;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 40px auto;
+    margin-bottom: 0;
+  }
+
+  /* Each Time Block */
+  .time-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px;
+  }
+
+  /* Numbers (Days/Hours/Minutes/Seconds) */
+  .time-number {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #bdd956;
+  }
+
+  /* Labels (Days/Hours/Minutes/Seconds) */
+  .time-label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+  }
+
+  /* Optional: Style for the end message (when countdown finishes) */
+  .finished-message {
+    text-align: center;
+    font-size: 2rem;
+    color: #ff0000;
+  }
+</style>
+
+
+
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Sep 2, 2025 14:00:00").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function () {
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // If the countdown is finished
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("countdown").style.display = "none";
+      document.getElementById("finished-message").innerHTML = "Time's up!";
+      return;
+    }
+
+    // Time calculations for days, hours, minutes, seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    var minutes = Math.floor(
+      (distance % (1000 * 60 * 60)) / (1000 * 60)
+    );
+    var seconds = Math.floor(
+      (distance % (1000 * 60)) / 1000
+    );
+
+    // Update HTML elements
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hours;
+    document.getElementById("minutes").innerHTML = minutes;
+    document.getElementById("seconds").innerHTML = seconds;
+  }, 1000);
+</script>
+
+
+{% endblock content %}
