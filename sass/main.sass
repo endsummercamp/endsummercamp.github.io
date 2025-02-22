@@ -1,0 +1,202 @@
+/* * {
+ *    border-style: solid;
+ *    border-color: #000;
+ *    border-width: 0.5px;
+ *}
+
+body
+  color: #737373
+  font-family: Poppins, sans-serif
+  line-height: 1.6
+  margin: 0
+  padding: 0
+  background-color: #feffff
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+.container
+  width: 1140px
+  margin: 0px auto
+  margin-top: 0
+  background: #feffff
+  padding: 20px
+  box-shadow: 0 20px 25px -5px rgba(177, 177, 177, 0.1), 0 10px 10px -5px rgba(191, 191, 191, 0.04)
+
+header
+  padding-top: 20px
+  padding-bottom: 20px
+  min-height: 50px
+  text-align: right
+  display: flex
+  flex-direction: row
+  align-items: center
+
+  nav
+    margin-left: auto
+
+  ul
+    li a
+      color: #737373
+      text-decoration: none
+      font-size: 22px
+      font-weight: 500
+      margin: 0 10px
+
+    display: flex
+    list-style: none
+    text-align: right
+    flex-direction: row
+
+  li
+    display: inline
+    padding: 0 20px 0 20px
+
+.section
+  padding: 20px
+  background: #fff
+
+#logo img
+  max-width: 200px
+
+.title
+  font-size: 2em
+  font-weight: bold
+  color: #333
+  margin: 20px 0
+  padding: 10px
+
+.social_sponsor
+  background-color: #cbcbcb
+  display: flex
+  align-items: start
+
+.license
+  background-color: #6f9a6c
+  font-size: 22px
+  color: white
+
+#telegram_button
+  background: #34ace1
+  color: white
+  transition: all .3s
+  padding: 8px 20px
+  border-radius: 3px
+
+/* Contenitore della lista di icone social
+
+.social-links
+  display: flex
+  gap: 1rem
+  list-style: none
+
+.social-link
+  margin: 0
+
+  a
+    width: 40px
+
+    /* Larghezza “cerchio” icona
+    height: 40px
+
+    /* Altezza “cerchio” icona
+    background-color: currentColor
+
+    /* Colore di sfondo di default
+    border-radius: 50%
+
+    /* Rende il contenitore circolare
+    color: #fff
+
+    /* Bianco
+    display: inline-block
+    text-align: center
+    font-size: 27px
+
+    &:hover
+      color: #fff
+
+    svg path
+      fill: #fff
+      display: flex
+
+/* Lo stile dell’ancora che contiene l’icona
+
+/* Al passaggio del mouse
+
+/* Imposta il colore di default dei tracciati SVG
+
+/* --- COLORI BRAND PER OGNI SOCIAL ---
+
+.wp-social-link-telegram a
+  background-color: #229ED9
+
+.wp-social-link-youtube a
+  color: #FF0000
+
+.wp-social-link-twitch a
+  color: #9146FF
+
+.wp-social-link-github a
+  color: #181717
+
+.wp-social-link-instagram a
+  color: #E1306C
+
+.wp-social-link-facebook a
+  color: #1877F2
+
+.screen-reader-text
+  visibility: hidden
+  position: absolute
+
+.sponsor
+  margin-left: auto
+  flex-direction: row
+  display: flex
+
+  a
+    display: flex
+
+  img
+    max-width: 140px
+    align-self: center
+    padding-left: 1.5em
+    padding-right: 1.5em
+
+@media (max-width: 1200px)
+  .social_sponsor
+    flex-direction: column
+    align-items: center
+
+  .sponsor
+    margin: 0
+    margin-bottom: 20px
+
+  header ul
+    flex-direction: column
+
+  .social-links
+    padding: 0
+
+  .container
+    width: 100%
+    padding: 0px
+
+@media (max-width: 600px)
+  #logo img
+    max-width: 150px
+
+  header ul
+    li
+      padding: 0
+
+    padding: 0
+
+  .section
+    padding: 0px
+
+  .sponsor img
+    max-width: 100px
+    padding-left: 0.5em
+    padding-right: 0.5em
