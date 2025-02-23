@@ -132,10 +132,6 @@ header {
     text-align: center;
     font-size: 27px;
 
-    &:hover {
-      color: #fff;
-    }
-
     svg {
       width: 24px;
       height: 24px;
@@ -157,7 +153,7 @@ header {
 /* --- COLORI BRAND PER OGNI SOCIAL --- */
 
 .wp-social-link-telegram a {
-  background-color: #229ED9;
+  color: #229ED9;
 }
 
 .wp-social-link-youtube a {
@@ -334,7 +330,7 @@ header {
   .social-link a {
     width: 25px;
     height: 25px;
-    font-size: 18px;
+    font-size: 17px;
 
     svg {
       width: 15px;
