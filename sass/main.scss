@@ -88,6 +88,11 @@ header {
   color: white;
 }
 
+#license_text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #telegram_button {
   background: #34ace1;
   color: white;
@@ -129,6 +134,11 @@ header {
 
     &:hover {
       color: #fff;
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
     }
 
     svg path {
@@ -193,6 +203,10 @@ header {
 }
 
 @media (max-width: 1200px) {
+  #telegram_li {
+    margin-top: 10px;
+  }
+
   .social_sponsor {
     flex-direction: column;
     align-items: center;
@@ -243,5 +257,97 @@ header {
     max-width: 100px;
     padding-left: 0.5em;
     padding-right: 0.5em;
+  }
+
+  .license {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+
+  .social-links {
+    gap: 0.5rem;
+  }
+
+  .social-link a {
+    width: 30px;
+    height: 30px;
+    font-size: 21px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  #logo img {
+    max-width: 150px;
+    position: absolute;
+    top: 50px;
+  }
+
+  .sponsor img {
+    max-width: 80px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .license {
+    font-size: 16px;
+  }
+
+  .sponsor {
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 280px) {
+  #logo img {
+    max-width: 120px;
+  }
+
+  .sponsor img {
+    max-width: 60px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .license {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 230px) {
+  #logo img {
+    max-width: 100px;
+  }
+
+  .sponsor img {
+    max-width: 50px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .social-link a {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+
+    svg {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  .license {
+    font-size: 12px;
+  }
+
+  .sponsor {
+
+    margin-top: 0;
   }
 }

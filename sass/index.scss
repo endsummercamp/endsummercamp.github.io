@@ -59,39 +59,6 @@
   color: #5f5f5f;
 }
 
-@media (max-width: 1200px) {
-  #youtube {
-    width: 420px;
-    height: 236.25px;
-  }
-
-  #main_content {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 850px) {
-  #main_container {
-    flex-direction: column;
-  }
-
-  #main_content {
-    padding: 0;
-  }
-
-  #main_text {
-    margin-bottom: 40px;
-    margin-top: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
-
-@media (max-width: 600px) {
-  #youtube {
-    width: 100%;
-  }
-}
 
 
 /* Countdown Container */
@@ -139,4 +106,83 @@
   text-align: center;
   font-size: 2rem;
   color: #ff0000;
+}
+
+@media (max-width: 1200px) {
+  #youtube {
+    width: 420px;
+    height: 236.25px;
+  }
+
+  #main_content {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 850px) {
+  #main_container {
+    flex-direction: column;
+  }
+
+  #main_content {
+    padding: 0;
+  }
+
+  #main_text {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  #youtube {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  #main_text {
+    font-size: 16px;
+  }
+
+  #right_content {
+
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .countdown-wrapper {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .time-block {
+    min-width: 0;
+  }
+
+  .time-number {
+    font-size: 2em;
+  }
+
+  .time-label {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 230px) {
+  .time-number {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+  }
+
+  .time-label {
+    font-size: 0.6em;
+  }
+
+  .countdown-wrapper {
+    gap: 5px;
+    padding: 5px;
+  }
 }
