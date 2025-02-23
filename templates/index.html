@@ -12,14 +12,15 @@
 <!-- </ul> -->
 
 <link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="lite-yt-embed.css" />
+<script src="lite-yt-embed.js"></script>
+
 
 <div id="main_container">
   <div id="main_content">
     <div id="youtube_frame">
-      <iframe id="youtube" src="https://www.youtube.com/embed/UMzpQJ53cXQ?si=vgR-lX-5CIXI6r2X"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <lite-youtube videoid="UMzpQJ53cXQ" id="youtube"
+        playlabel="End Summer Camp: Hacking, Free Software, DIY Since 2005"></lite-youtube>
     </div>
     <div id="main_text">
       ESC è un incontro non-profit di persone interessate all’<a
@@ -62,59 +63,6 @@
 </div>
 
 
-
-
-<style>
-  /* Countdown Container */
-  .countdown-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    background-color: #eee;
-    color: #fff;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    padding: 20px;
-    border-radius: 8px;
-    width: fit-content;
-    margin: 40px auto;
-    margin-bottom: 0;
-  }
-
-  /* Each Time Block */
-  .time-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 60px;
-  }
-
-  /* Numbers (Days/Hours/Minutes/Seconds) */
-  .time-number {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: #bdd956;
-  }
-
-  /* Labels (Days/Hours/Minutes/Seconds) */
-  .time-label {
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #333;
-  }
-
-  /* Optional: Style for the end message (when countdown finishes) */
-  .finished-message {
-    text-align: center;
-    font-size: 2rem;
-    color: #ff0000;
-  }
-</style>
-
-
-
 <script>
   // Set the date we're counting down to
   var countDownDate = new Date("Sep 2, 2025 14:00:00").getTime();
@@ -150,7 +98,7 @@
     document.getElementById("days").innerHTML = days;
     document.getElementById("hours").innerHTML = hours;
     document.getElementById("minutes").innerHTML = minutes;
-    document.getElementById("seconds").innerHTML = seconds;
+    //document.getElementById("seconds").innerHTML = seconds;
   }
 
   // Update the count down every 1 second

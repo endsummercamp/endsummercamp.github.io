@@ -1,8 +1,8 @@
-/* * {
-      border-style: solid;
-      border-color: #000;
-      border-width: 0.5px;
-  } */
+// * {
+//       border-style: solid;
+//       border-color: #000;
+//       border-width: 0.5px;
+//   } 
 
 body {
   color: #737373;
@@ -201,6 +201,7 @@ header {
   .sponsor {
     margin: 0;
     margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   header ul {
@@ -210,7 +211,11 @@ header {
   .social-links {
     padding: 0;
   }
-  
+
+  .license {
+    text-align: center;
+  }
+
   .container {
     width: 100%;
     padding: 0px;

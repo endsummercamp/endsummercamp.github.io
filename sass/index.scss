@@ -1,6 +1,13 @@
-#youtube_frame iframe {
+#youtube {
   width: 560px;
   height: 315px;
+}
+
+#youtube_frame {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 #main_container {
@@ -19,7 +26,12 @@
   align-items: center;
   margin: 0;
   padding: 0;
+  padding-right: 20px;
   font-size: 22px;
+}
+
+#main_text {
+  margin-top: 20px;
 }
 
 #main_text a {
@@ -48,7 +60,7 @@
 }
 
 @media (max-width: 1200px) {
-  #youtube_frame iframe {
+  #youtube {
     width: 420px;
     height: 236.25px;
   }
@@ -63,6 +75,10 @@
     flex-direction: column;
   }
 
+  #main_content {
+    padding: 0;
+  }
+
   #main_text {
     margin-bottom: 40px;
     margin-top: 40px;
@@ -72,11 +88,55 @@
 }
 
 @media (max-width: 600px) {
-  #youtube_frame {
+  #youtube {
     width: 100%;
-
-    iframe {
-      width: 100%;
-    }
   }
+}
+
+
+/* Countdown Container */
+.countdown-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #eee;
+  color: #fff;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  padding: 20px;
+  border-radius: 8px;
+  width: fit-content;
+  margin: 40px auto;
+  margin-bottom: 0;
+}
+
+/* Each Time Block */
+.time-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 60px;
+}
+
+/* Numbers (Days/Hours/Minutes/Seconds) */
+.time-number {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #bdd956;
+}
+
+/* Labels (Days/Hours/Minutes/Seconds) */
+.time-label {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+/* Optional: Style for the end message (when countdown finishes) */
+.finished-message {
+  text-align: center;
+  font-size: 2rem;
+  color: #ff0000;
 }
