@@ -91,6 +91,24 @@ header {
 #license_text {
   padding-left: 10px;
   padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.source-link {
+  margin-left: auto;
+  
+  a {
+    color: white;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 #telegram_button {
@@ -144,7 +162,7 @@ header {
   }
 }
 
-/* Lo stile dell’ancora che contiene l’icona */
+/* Lo stile dell'ancora che contiene l'icona */
 
 /* Al passaggio del mouse */
 
@@ -214,10 +232,6 @@ header {
     margin-top: 20px;
   }
 
-  header ul {
-    flex-direction: column;
-  }
-
   .social-links {
     padding: 0;
   }
@@ -258,6 +272,16 @@ header {
   .license {
     font-size: 18px;
   }
+
+  #license_text {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.3em;
+  }
+
+  .source-link {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 350px) {
@@ -293,6 +317,11 @@ header {
     font-size: 16px;
   }
 
+  #license_text {
+    font-size: 14px;
+    gap: 0.2em;
+  }
+
   .sponsor {
     margin: 0;
     margin-bottom: 10px;
@@ -313,6 +342,10 @@ header {
 
   .license {
     font-size: 14px;
+  }
+
+  #license_text {
+    font-size: 12px;
   }
 }
 
@@ -340,6 +373,10 @@ header {
 
   .license {
     font-size: 12px;
+  }
+
+  #license_text {
+    font-size: 11px;
   }
 
   .sponsor {
