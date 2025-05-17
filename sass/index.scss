@@ -59,7 +59,41 @@
   color: #5f5f5f;
 }
 
+/* Action Links */
+.action-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 20px 0;
+  flex-direction: column;
+  gap: 10px;
+}
 
+.action-button {
+  display: inline-block;
+  padding: 10px 18px;
+  background-color: #bdd956;
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  text-align: center;
+  min-width: 120px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 8px 15px;
+}
+
+.action-button:hover {
+  background-color: #a7c445;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.ticket-button {
+  background-color: #93a93a;
+}
 
 /* Countdown Container */
 .countdown-wrapper {
