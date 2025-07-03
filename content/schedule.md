@@ -7,4 +7,4 @@ Il programma dell'ESC 2025 è in fase di definizione. Controlla questa pagina pi
 
 
 
-Per proporre un talk o un laboratorio, visita la pagina [Call](/call).
+Per proporre un talk o un laboratorio, visita il nostro [pretalx](https://pretalx.endsummer.camp/2K25/cfp).
