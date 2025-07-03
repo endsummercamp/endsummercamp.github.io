@@ -31,15 +31,15 @@ Nessuna in particolare, ma abbiamo pensato di fare riferimento a dei principi ge
 
 ## Come posso partecipare?
 
-Consulta la pagina della [Call](/call) e manda le tue idee/proposte per seminari, talk e iniziative. Puoi in ogni caso supportare l'iniziativa aiutandoci a diffondere la notizia dell'evento con un link/banner sul tuo sito o con un messaggio nella mailing list del tuo gruppo (Vedi sezione [Risorse](/risorse)), oppure contribuire al finanziamento con donazioni per coprire le spese.
+Consulta [pretalx](https://pretalx.endsummer.camp/2K25/cfp) e manda le tue idee/proposte per seminari, talk e iniziative. Puoi in ogni caso supportare l'iniziativa aiutandoci a diffondere la notizia dell'evento con un link/banner sul tuo sito o con un messaggio nella mailing list del tuo gruppo (Vedi sezione [Risorse](/risorse)), oppure contribuire al finanziamento con donazioni per coprire le spese.
 
 ## Come posso proporre un mio Talk/Lab?
 
-È semplice: basta andare alla pagina della relativa [Call](/call) e seguire le indicazioni.
+È semplice: basta andare su [pretalx](https://pretalx.endsummer.camp/2K25/cfp) e seguire le indicazioni.
 
 ## E se sono un gruppo?
 
-Le modalità sono tendenzialmente le stesse, ma come gruppo potete anche partecipare o supportare la manifestazione proponendo [Contenuti](/call) idee e iniziative di cui siete in grado di prendervi cura interamente (es. rete wi-fi, streaming, musica, ...); in questo caso potrete apparire come gruppo tra gli organizzatori dell'evento.
+Le modalità sono tendenzialmente le stesse, ma come gruppo potete anche partecipare o supportare la manifestazione proponendo [Contenuti](https://pretalx.endsummer.camp/2K25/cfp) idee e iniziative di cui siete in grado di prendervi cura interamente (es. rete wi-fi, streaming, musica, ...); in questo caso potrete apparire come gruppo tra gli organizzatori dell'evento.
 
 ## Posso portare con me mio figlio/a?
 
