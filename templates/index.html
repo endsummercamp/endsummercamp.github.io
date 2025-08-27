@@ -1,29 +1,20 @@
 {% extends "base.html" %}
 
 {% block content %}
-<!-- <h1 class="title">
-  {{ section.title }}
-</h1> -->
-<!-- <ul> -->
-<!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
-<!-- {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
-  {% endfor %} -->
-<!-- </ul> -->
 
 <link rel="stylesheet" href="index.css">
 <link rel="stylesheet" href="lite-yt-embed.css" />
 <script src="lite-yt-embed.js"></script>
 
 
-<div id="main_container">
+<div id="main_container" >
   <div id="main_content">
     <div id="youtube_frame">
       <lite-youtube videoid="UMzpQJ53cXQ" id="youtube"
-        playlabel="End Summer Camp: Hacking, Free Software, DIY Since 2005"></lite-youtube>
+      playlabel="End Summer Camp: Hacking, Free Software, DIY Since 2005"></lite-youtube>
     </div>
     <div id="main_text">
-      ESC è un incontro non-profit di persone interessate all’<a
+      End Summer Camp (ESC) è un incontro non-profit di persone interessate all’<a
         href="http://it.wikipedia.org/wiki/Hacking">Hacking</a>, al <a
         href="http://it.wikipedia.org/wiki/Copyleft">Software Libero</a> e al <a
         href="http://it.wikipedia.org/wiki/Maker">DIY</a>. Il contenuto
