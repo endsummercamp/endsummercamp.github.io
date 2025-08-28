@@ -3,7 +3,7 @@ title = "Programma e Contenuti"
 date = 2025-08-26
 +++
 
-<link rel="stylesheet" href="schedule.css">
+<link rel="stylesheet" href="/schedule.css">
 
 # Programma
 
