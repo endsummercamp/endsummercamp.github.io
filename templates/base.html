@@ -38,32 +38,33 @@
             {% block content %} {% endblock %}
         </section>
 
-        <footer>
-            <div class="container social_sponsor">
+    </div>
 
-                {% include "socials.html" %}
+    <footer>
+        <div class="container social_sponsor">
 
-                <div class="sponsor">
-                    <a href="https://crunchlab.it/"><img src="/images/CRUNCHLAB.png.webp" alt="CRUNCHLAB"></a>
-                    <a href="https://redder.it/"><img src="/images/REDDER.png.webp" alt="REDDER"></a>
-                    <a href="https://blondbrothers.it/"><img src="/images/BLOND-BROTHERS.png.webp"
-                            alt="BLOND BROTHERS"></a>
-                </div>
+            {% include "socials.html" %}
 
+            <div class="sponsor">
+                <a href="https://crunchlab.it/"><img src="/images/CRUNCHLAB.png.webp" alt="CRUNCHLAB"></a>
+                <a href="https://redder.it/"><img src="/images/REDDER.png.webp" alt="REDDER"></a>
+                <a href="https://blondbrothers.it/"><img src="/images/BLOND-BROTHERS.png.webp" alt="BLOND BROTHERS"></a>
             </div>
-            <div class="container license">
-                <p id="license_text"> Copyright © 2005-2025 | End Summer Camp | CC BY-SA <span class="source-link"><a
-                            href="https://github.com/endsummercamp/endsummercamp.github.io">Website Source</a></span>
-                </p>
-            </div>
-        </footer>
-        <script>
-            function toggleMenu() {
-                console.log("Menu toggled");
-                const nav = document.querySelector("#main-nav");
-                nav.classList.toggle("open");
-            }
-        </script>
+
+        </div>
+        <div class="container license">
+            <p id="license_text"> Copyright © 2005-2025 | End Summer Camp | CC BY-SA <span class="source-link"><a
+                        href="https://github.com/endsummercamp/endsummercamp.github.io">Website Source</a></span>
+            </p>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            console.log("Menu toggled");
+            const nav = document.querySelector("#main-nav");
+            nav.classList.toggle("open");
+        }
+    </script>
 </body>
 
 </html>
