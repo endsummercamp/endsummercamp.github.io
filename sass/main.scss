@@ -11,7 +11,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #feffff;
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
 }
@@ -196,9 +196,7 @@ header {
     /* Bianco */
     color: #fff;
 
-    text-align: center;
     display: flex;
-
     justify-content: center;
     align-items: center;
 
