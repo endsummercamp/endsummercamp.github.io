@@ -2,10 +2,10 @@
 //       border-style: solid;
 //       border-color: #000;
 //       border-width: 0.5px;
-//   } 
+//   }
 
 body {
-  color: #737373;
+  color: #636363;
   font-family: Poppins, sans-serif;
   line-height: 1.6;
   margin: 0;
@@ -22,14 +22,14 @@ body {
   margin-top: 0;
   background: #feffff;
   padding: 20px;
-  box-shadow: 0 20px 25px -5px rgba(177, 177, 177, 0.1), 0 10px 10px -5px rgba(191, 191, 191, 0.04);
+  box-shadow: 0 20px 25px -5px rgba(177, 177, 177, 0.1),
+    0 10px 10px -5px rgba(191, 191, 191, 0.04);
 }
 
 header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: 2rem;
+  margin: 1rem 20px;
   min-height: 50px;
+  padding: 0;
   text-align: right;
   display: flex;
   flex-direction: row;
@@ -47,12 +47,13 @@ header {
     .open {
       display: flex;
       width: 100%;
+      margin-bottom: 3rem;
+      margin: 3rem 1rem;
       flex-direction: column;
       justify-content: center;
       gap: 2rem;
       min-height: 50vh;
     }
-
   }
 
   .button-overflow {
@@ -73,12 +74,28 @@ header {
     gap: 3rem;
 
     a {
-      color: #737373;
+      @media (max-width: 768px) {
+        width: inherit;
+        text-align: center;
+      }
+      color: #636363;
       text-decoration: none;
       font-size: 22px;
       font-weight: 500;
     }
-    
+
+    a:hover {
+      color: #939393;
+    }
+
+  }
+  .button {
+    background-color: #93a93a;
+  }
+
+  .button:hover {
+    background-color: #a7c445;
+    color: white;
   }
 }
 
@@ -96,7 +113,7 @@ header {
   font-weight: bold;
   color: #333;
   margin: 20px 0;
-  padding: 10px;
+  //padding: 10px;
 }
 
 .social_sponsor {
@@ -125,11 +142,11 @@ header {
 
 .source-link {
   margin-left: auto;
-  
+
   a {
     color: white;
     text-decoration: none;
-    
+
     &:hover {
       text-decoration: underline;
     }
@@ -137,12 +154,17 @@ header {
 }
 
 .button {
-  background: #34ace1;
   color: white;
-  transition: all .3s;
+  transition: all 0.3s;
   padding: 8px 20px;
   border-radius: 3px;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.telegram.button {
+  background: #34ace1 !important;
+  color: white;
 }
 
 /* Contenitore della lista di icone social */
@@ -159,18 +181,18 @@ header {
   margin: 0;
 
   a {
-    /* Larghezza “cerchio” icona */
+    /* Larghezza "cerchio" icona */
     width: 40px;
-    
-    /* Altezza “cerchio” icona */
+
+    /* Altezza "cerchio" icona */
     height: 40px;
 
     /* Colore di sfondo di default */
     background-color: currentColor;
-    
+
     /* Rende il contenitore circolare */
     border-radius: 50%;
-    
+
     /* Bianco */
     color: #fff;
 
@@ -200,15 +222,15 @@ header {
 /* --- COLORI BRAND PER OGNI SOCIAL --- */
 
 .wp-social-link-telegram a {
-  color: #229ED9;
+  color: #229ed9;
 }
 
 .wp-social-link-youtube a {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 .wp-social-link-twitch a {
-  color: #9146FF;
+  color: #9146ff;
 }
 
 .wp-social-link-github a {
@@ -216,11 +238,11 @@ header {
 }
 
 .wp-social-link-instagram a {
-  color: #E1306C;
+  color: #e1306c;
 }
 
 .wp-social-link-facebook a {
-  color: #1877F2;
+  color: #1877f2;
 }
 
 .screen-reader-text {
@@ -266,12 +288,14 @@ header {
   }
 
   .container {
-    width: 100%;
-    padding: 0px;
+    width: auto;
   }
 }
 
 @media (max-width: 600px) {
+  header {
+    margin: 1rem 0px;
+  }
 
   .section {
     padding: 0px;
@@ -299,7 +323,6 @@ header {
 }
 
 @media (max-width: 350px) {
-
   .social-link a {
     width: 30px;
     height: 30px;
@@ -334,10 +357,6 @@ header {
 }
 
 @media (max-width: 280px) {
-  #logo img {
-    max-width: 120px;
-  }
-
   .sponsor img {
     max-width: 60px;
     padding-left: 0.5em;
@@ -384,7 +403,6 @@ header {
   }
 
   .sponsor {
-
     margin-top: 0;
   }
 }

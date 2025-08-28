@@ -7,10 +7,9 @@
     <title>End Summer Camp &#8211; Hacking * Free Software * DIY</title>
     <link rel="stylesheet" href="/main.css">
     <link rel="manifest" href="/manifest.webmanifest">
-    <link rel="icon" type="image/png"  href="/images/favicon/favicon_64.png" sizes="64x64">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon_64.png" sizes="64x64">
 
-    <meta name="keywords" 
-        content="ESC, Hacking, Free Software, DIY, End Summer Camp, Italian Community, non-profit" >
+    <meta name="keywords" content="ESC, Hacking, Free Software, DIY, End Summer Camp, Italian Community, non-profit">
     <meta name="description"
         content="ESC è un incontro non-profit di persone interessate all’Hacking, al Software Libero e al DIY.">
 </head>
@@ -19,10 +18,11 @@
     <div class="container">
         <header>
             <a href="/" id="logo" aria-label="Home">
-                <img 
-                    src="/images/ESC.png.webp" 
-                    srcset="/images/ESC.png.webp 1x, /images/ESC.png 1x" 
-                    alt="Logo dell'End Summer Camp">
+                <picture>
+                    <source srcset="/images/ESC.png.webp" type="image/webp">
+                    <source srcset="/images/ESC.png" type="image/png">
+                    <img src="/images/ESC.png.webp" alt="Logo dell'End Summer Camp">
+                </picture>
             </a>
             <a onclick="toggleMenu()" class="button button-overflow">&#8801;</a>
             <nav id="main-nav">
@@ -30,38 +30,40 @@
                 <a href="/schedule">Contenuti</a>
                 <a href="/faq">FAQ</a>
                 <a href="https://www.endsummercamp.org/index.php/Main_Page">Wiki</a>
-                <a href="http://t.me/endsummercamp" class="button">Telegram</a>
+                <a href="http://t.me/endsummercamp" class="button telegram">Telegram</a>
             </nav>
         </header>
 
-        <section class="section" >
+        <section class="section">
             {% block content %} {% endblock %}
         </section>
 
-    </div>
+        <footer>
+            <div class="container social_sponsor">
 
-    <div class="container social_sponsor" >
+                {% include "socials.html" %}
 
-        {% include "socials.html" %}
+                <div class="sponsor">
+                    <a href="https://crunchlab.it/"><img src="/images/CRUNCHLAB.png.webp" alt="CRUNCHLAB"></a>
+                    <a href="https://redder.it/"><img src="/images/REDDER.png.webp" alt="REDDER"></a>
+                    <a href="https://blondbrothers.it/"><img src="/images/BLOND-BROTHERS.png.webp"
+                            alt="BLOND BROTHERS"></a>
+                </div>
 
-        <div class="sponsor">
-            <a href="https://crunchlab.it/"><img src="/images/CRUNCHLAB.png.webp" alt="CRUNCHLAB"></a>
-            <a href="https://redder.it/"><img src="/images/REDDER.png.webp" alt="REDDER"></a>
-            <a href="https://blondbrothers.it/"><img src="/images/BLOND-BROTHERS.png.webp" alt="BLOND BROTHERS"></a>
-        </div>
-
-    </div>
-    <div class="container license">
-        <p id="license_text"> Copyright © 2005-2025 | End Summer Camp | CC BY-SA <span class="source-link"><a href="https://github.com/endsummercamp/endsummercamp.github.io">Website Source</a></span></p>
-    </div>
-
-    <script>
-        function toggleMenu() {
-            console.log("Menu toggled");
-            const nav = document.querySelector("#main-nav");
-            nav.classList.toggle("open");
-        }
-    </script>
+            </div>
+            <div class="container license">
+                <p id="license_text"> Copyright © 2005-2025 | End Summer Camp | CC BY-SA <span class="source-link"><a
+                            href="https://github.com/endsummercamp/endsummercamp.github.io">Website Source</a></span>
+                </p>
+            </div>
+        </footer>
+        <script>
+            function toggleMenu() {
+                console.log("Menu toggled");
+                const nav = document.querySelector("#main-nav");
+                nav.classList.toggle("open");
+            }
+        </script>
 </body>
 
 </html>
