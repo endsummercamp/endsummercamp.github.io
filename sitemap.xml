@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://localhost:8081/</loc>
+    </url>
+    <url>
+        <loc>http://localhost:8081/campeggio/</loc>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8081/come-arrivare/</loc>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8081/faq/</loc>
+        <lastmod>2019-11-27</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8081/linee-guida/</loc>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8081/risorse/</loc>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:8081/schedule/</loc>
+        <lastmod>2025-08-26</lastmod>
+    </url>
+</urlset>
