@@ -39,6 +39,7 @@
 }
 
 #right_content {
+  min-width: 300px;
   box-shadow: 1px 1px 13px #f2f2f2;
   padding: 25px;
   border-radius: 3px;
@@ -152,6 +153,10 @@
   #main_content {
     font-size: 18px;
   }
+
+  #right_content {
+    min-width: 250px;
+  }
 }
 
 @media (max-width: 850px) {
@@ -168,6 +173,9 @@
     margin-top: 40px;
     margin-left: 10px;
     margin-right: 10px;
+  }
+  #right_content {
+    max-width: initial;
   }
 }
 
