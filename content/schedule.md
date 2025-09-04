@@ -11,7 +11,7 @@ date = 2025-08-26
 
 Il programma di `ESC {21}` è in fase di definizione, quindi questa pagina e' in continuo aggiornamento. Controlla nuovamente questa pagina piu' avanti per tenerti aggiornato sugli eventi, i talk e i laboratori che si terranno durante l'evento!
 
-Inoltre, puoi vedere lo schedule attuale (in allestimento!) sul **[Calendario di Pretalk](https://pretalx.endsummer.camp/2K25/schedule/)**.
+Inoltre, puoi vedere lo schedule attuale (in allestimento!) sul **[Calendario di Pretalx](https://pretalx.endsummer.camp/2K25/schedule/)**.
 A breve verra' pubblicato lo schedule finale.
 
 ## Contribuisci all'ESC!
@@ -22,12 +22,11 @@ Per proporre un talk o un laboratorio, visita la nostra Call for Papers (CFP) su
 # Contenuti
 
 <div id="schedule">
-    <div class="spinner"></div>
 </div>
 
 <script>
     // Mostra lo spinner all'avvio
-    document.getElementById('schedule').innerHTML = '<div class="spinner"></div>';
+    document.getElementById('schedule').innerHTML = '<div class="spinner"></div><span style="text-align: center;">Sto caricando il programma...</span>';
 
     fetch('https://pretalx.endsummer.camp/2K25/schedule/export/schedule.xml')
         .then(r => r.text())
@@ -78,3 +77,6 @@ Per proporre un talk o un laboratorio, visita la nostra Call for Papers (CFP) su
             document.getElementById('schedule').innerHTML = '<p>Impossibile caricare il programma.</p>';
         });
 </script>
+<noscript>
+    <p>Per visualizzare il programma, abilita JavaScript nel tuo browser o vai <a href="https://pretalx.endsummer.camp/2K25/schedule/nojs">sul calendario di Pretalx</a>.</p>
+</noscript>
