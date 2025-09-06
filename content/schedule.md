@@ -59,6 +59,16 @@ Per proporre un talk o un laboratorio, visita la nostra Call for Papers (CFP) su
                                 <div class="room">Sala: ${roomName}</div>
                                 <div class="persons">Relatori: ${persons}</div>
                                 <a class="link" href="${url}" target="_blank">Dettagli</a>
+                                <a class="ical-link" href="#" onclick="downloadICS(event, {
+                                    title: \`${title.replace(/`/g, "\\`")}\`,
+                                    date: \`${date}\`,
+                                    start: \`${start}\`,
+                                    duration: \`${duration}\`,
+                                    room: \`${roomName.replace(/`/g, "\\`")}\`,
+                                    persons: \`${persons.replace(/`/g, "\\`")}\`,
+                                    url: \`${url}\`,
+                                    description: \`${abstract.replace(/`/g, "\\`")}\`
+                                })">Scarica iCal</a>
                             </div>
                         `;
                         if (track === 'Talk') tracks['Talk'].push(eventHtml);
@@ -76,6 +86,41 @@ Per proporre un talk o un laboratorio, visita la nostra Call for Papers (CFP) su
         .catch(() => {
             document.getElementById('schedule').innerHTML = '<p>Impossibile caricare il programma.</p>';
         });
+
+    function downloadICS(e, data) {
+        e.preventDefault();
+        // Calcola orario di fine
+        function addDuration(start, duration) {
+            const [h, m] = duration.split(':').map(Number);
+            const date = new Date(`${data.date}T${data.start}`);
+            date.setHours(date.getHours() + h);
+            date.setMinutes(date.getMinutes() + m);
+            return date.toISOString().replace(/[-:]/g, '').slice(0,15) + 'Z';
+        }
+        const dtStart = `${data.date.replace(/-/g, '')}T${data.start.replace(/:/g, '')}00Z`;
+        const dtEnd = addDuration(data.start, data.duration);
+        const icsContent = [
+            'BEGIN:VCALENDAR',
+            'VERSION:2.0',
+            'PRODID:-//endsummercamp//ESC21//IT',
+            'BEGIN:VEVENT',
+            `SUMMARY:${data.title}`,
+            `DESCRIPTION:${data.description}\\nRelatori: ${data.persons}\\nDettagli: ${data.url}`,
+            `LOCATION:${data.room}`,
+            `DTSTART:${dtStart}`,
+            `DTEND:${dtEnd}`,
+            `URL:${data.url}`,
+            'END:VEVENT',
+            'END:VCALENDAR'
+        ].join('\r\n');
+        const blob = new Blob([icsContent], { type: 'text/calendar' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = `${data.title.replace(/[^a-z0-9]/gi, '_').toLowerCase()}.ics`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
 </script>
 <noscript>
     <p>Per visualizzare il programma, abilita JavaScript nel tuo browser o vai <a href="https://pretalx.endsummer.camp/2K25/schedule/nojs">sul calendario di Pretalx</a>.</p>
