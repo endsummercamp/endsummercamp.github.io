@@ -9,7 +9,7 @@ date = 2025-08-26
 
 ## Resta Aggiornato
 
-Il programma di `ESC {21}` è in fase di definizione, quindi questa pagina e' in continuo aggiornamento. Controlla nuovamente questa pagina piu' avanti per tenerti aggiornato sugli eventi, i talk e i laboratori che si terranno durante l'evento!
+Il programma di `ESC {22}` è in fase di definizione, quindi questa pagina e' in continuo aggiornamento. Controlla nuovamente questa pagina piu' avanti per tenerti aggiornato sugli eventi, i talk e i laboratori che si terranno durante l'evento!
 
 Inoltre, puoi vedere lo schedule attuale (in allestimento!) sul **[Calendario di Pretalx](https://pretalx.endsummer.camp/2K25/schedule/)**.
 A breve verra' pubblicato lo schedule finale.
@@ -19,6 +19,7 @@ A breve verra' pubblicato lo schedule finale.
 La prima regola dell'ESC è: _"Porta all'ESC quello che vorresti vedere all'ESC!"_  
 Per proporre un talk o un laboratorio, visita la nostra Call for Papers (CFP) su [Pretalx](https://pretalx.endsummer.camp/2K25/cfp).
 
+<!--
 # Contenuti
 
 <div id="schedule">
@@ -124,4 +125,4 @@ Per proporre un talk o un laboratorio, visita la nostra Call for Papers (CFP) su
 </script>
 <noscript>
     <p>Per visualizzare il programma, abilita JavaScript nel tuo browser o vai <a href="https://pretalx.endsummer.camp/2K25/schedule/nojs">sul calendario di Pretalx</a>.</p>
-</noscript>
+</noscript-->
