@@ -10,7 +10,8 @@ build_search_index = true
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlighting = true
+[markdown.highlighting]
+code_fences = true
 
 [extra]
 # Put all your custom variables here
