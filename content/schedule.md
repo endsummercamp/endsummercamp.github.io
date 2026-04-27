@@ -7,6 +7,8 @@ date = 2025-08-26
 
 # Programma
 
+## ATTENZIONE! La [Call for Content](https://pretalx.endsummer.camp/2k26/cfp) di `ESC {22}` edizione 2026 è aperta! 
+
 ## Resta Aggiornato
 
 Il programma di `ESC {22}` è in fase di definizione, quindi questa pagina e' in continuo aggiornamento. Controlla nuovamente questa pagina piu' avanti per tenerti aggiornato sugli eventi, i talk e i laboratori che si terranno durante l'evento!
@@ -17,7 +19,7 @@ A breve verra' pubblicato lo schedule finale.
 ## Contribuisci all'ESC!
 
 La prima regola dell'ESC è: _"Porta all'ESC quello che vorresti vedere all'ESC!"_  
-Per proporre un talk o un laboratorio, visita la nostra Call for Papers (CFP) su [Pretalx](https://pretalx.endsummer.camp/2K25/cfp).
+Per proporre un talk o un laboratorio, visita la nostra Call for Content (CFC) su [Pretalx](https://pretalx.endsummer.camp/2k26/cfp).
 
 <!--
 # Contenuti
