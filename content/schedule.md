@@ -7,7 +7,27 @@ date = 2025-08-26
 
 # Programma
 
-## ATTENZIONE! La [Call for Content](https://pretalx.endsummer.camp/2k26/cfp) di `ESC {22}` edizione 2026 è aperta! 
+**ATTENZIONE! La [Call for Content](https://pretalx.endsummer.camp/2k26/cfp) di `ESC {22}` edizione 2026 è aperta!** 
+
+## Call for Topics
+
+ESC {22} edizione 2026 e' in preparazione! 
+Il Team Contenuti e' all'opera anche quest'anno per offirvi un ESC pieno di Talk, Lab e Progetti indipendenti, ma vogliamo [sentire la TUA voce](https://survey.linux.it/index.php/946716)!
+
+## Contribuisci all'ESC!
+
+La prima regola dell'ESC è: _"Porta all'ESC quello che vorresti vedere all'ESC!"_  
+Per proporre un talk o un laboratorio, visita la nostra Call for Content (CFC) su [Pretalx](https://pretalx.endsummer.camp/2k26/cfp).
+
+Non ti senti pront- a portare un Talk, Lab o Progetto?  Nessun problema!
+Hai suggerimenti per Topics, Speakers e/o altri Contenuti di quest'anno? 
+
+In aggiunta alla normale Call for Contents, stiamo raccogliendo idee su quali argomenti, temi o contenuti la community vorrebbe vedere ad ESC, potenziali speaker (inclusi eventuali tuoi contatti) e in generale suggerimenti su come rendere l'ESC ancora piu' memorabile.
+Aiutaci rispondendo [a questo breve questionario](https://survey.linux.it/index.php/946716) 
+
+Se inoltre hai speakers da raccomandare o vuoi semplicemente parlare con il Team Contenuti, puoi:
+- Contattarci sul Gruppo Telegram --> http://t.me/endsummercamp
+- Inviare un'email a: tarapia@endsummercamp.org
 
 ## Resta Aggiornato
 
@@ -15,11 +35,6 @@ Il programma di `ESC {22}` è in fase di definizione, quindi questa pagina e' in
 
 Inoltre, puoi vedere lo schedule attuale (in allestimento!) sul **[Calendario di Pretalx](https://pretalx.endsummer.camp/2K25/schedule/)**.
 A breve verra' pubblicato lo schedule finale.
-
-## Contribuisci all'ESC!
-
-La prima regola dell'ESC è: _"Porta all'ESC quello che vorresti vedere all'ESC!"_  
-Per proporre un talk o un laboratorio, visita la nostra Call for Content (CFC) su [Pretalx](https://pretalx.endsummer.camp/2k26/cfp).
 
 <!--
 # Contenuti
