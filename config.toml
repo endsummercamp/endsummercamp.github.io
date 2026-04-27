@@ -10,6 +10,8 @@ build_search_index = true
 [markdown.highlighting]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+light_theme = "github-light"                                                                                     
+dark_theme = "github-dark"
 
 [extra]
 # Put all your custom variables here
