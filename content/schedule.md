@@ -17,7 +17,7 @@ Il Team Contenuti e' all'opera anche quest'anno per offirvi un ESC pieno di Talk
 ## Contribuisci all'ESC!
 
 La prima regola dell'ESC è: _"Porta all'ESC quello che vorresti vedere all'ESC!"_  
-Per proporre un talk o un laboratorio, visita la nostra Call for Content (CFC) su [Pretalx](https://pretalx.endsummer.camp/2k26/cfp).
+Per proporre un Talk, un Laboratorio, un Progetto o una performance musicale, visita la nostra Call for Content (CFC) su [Pretalx](https://pretalx.endsummer.camp/2k26/cfp).
 
 Non ti senti pront- a portare un Talk, Lab o Progetto?  Nessun problema!
 Hai suggerimenti per Topics, Speakers e/o altri Contenuti di quest'anno? 
@@ -26,8 +26,8 @@ In aggiunta alla normale Call for Contents, stiamo raccogliendo idee su quali ar
 Aiutaci rispondendo [a questo breve questionario](https://survey.linux.it/index.php/946716) 
 
 Se inoltre hai speakers da raccomandare o vuoi semplicemente parlare con il Team Contenuti, puoi:
-- Contattarci sul Gruppo Telegram --> http://t.me/endsummercamp
-- Inviare un'email a: tarapia@endsummercamp.org
+- Contattarci sul [Gruppo Telegram](http://t.me/endsummercamp)
+- Inviare un'email a: `tarapia@endsummercamp.org`
 
 ## Resta Aggiornato
 
