@@ -33,7 +33,7 @@ Se inoltre hai speakers da raccomandare o vuoi semplicemente parlare con il Team
 
 Il programma di `ESC {22}` è in fase di definizione, quindi questa pagina e' in continuo aggiornamento. Controlla nuovamente questa pagina piu' avanti per tenerti aggiornato sugli eventi, i talk e i laboratori che si terranno durante l'evento!
 
-Inoltre, puoi vedere lo schedule attuale (in allestimento!) sul **[Calendario di Pretalx](https://pretalx.endsummer.camp/2K25/schedule/)**.
+Inoltre, puoi vedere lo schedule attuale (in allestimento!) sul **[Calendario di Pretalx](https://pretalx.endsummer.camp/2K26/schedule/)**.
 A breve verra' pubblicato lo schedule finale.
 
 <!--
