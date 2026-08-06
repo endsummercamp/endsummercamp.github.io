@@ -43,7 +43,7 @@ Come a ogni evento del genere che si rispetti :) sarà stampata la T-Shirt End S
 
 Abbiamo a disposizione spazio per campeggio, corrente elettrica, docce e bagni. Avremo anche connettività Internet wired/wireless. Come sistemazione notturna è disponibile la seguente opzione:
 
-* Posto Tenda, 3x3m (circa), adatto ad una piccola tenda da due-tre persone al massimo (eg. [ARPENAZ-2](https://www.decathlon.it/tenda-arpenaz-2-verde-2-posti-id_8293539.html))
+* Posto Tenda, 3x3m (circa), adatto ad una piccola tenda da due-tre persone al massimo (eg. [Bertoni Nordkapp 2](https://www.bertonistore.it/tende-igloo/7037-bertoni-nordkapp-2-tenda-a-igloo-8032919960108.html))
 
 Ricorda che tende e materassini **NON SONO COMPRESI**, ciò significa che devi portare i tuoi!
 
