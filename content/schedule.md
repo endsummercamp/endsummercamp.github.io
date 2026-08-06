@@ -46,7 +46,7 @@ A breve verra' pubblicato lo schedule finale.
     // Mostra lo spinner all'avvio
     document.getElementById('schedule').innerHTML = '<div class="spinner"></div><span style="text-align: center;">Sto caricando il programma...</span>';
 
-    fetch('https://pretalx.endsummer.camp/2K25/schedule/export/schedule.xml')
+    fetch('https://pretalx.endsummer.camp/2K26/schedule/export/schedule.xml')
         .then(r => r.text())
         .then(xmlText => {
             const parser = new DOMParser();
@@ -120,7 +120,7 @@ A breve verra' pubblicato lo schedule finale.
         const icsContent = [
             'BEGIN:VCALENDAR',
             'VERSION:2.0',
-            'PRODID:-//endsummercamp//ESC21//IT',
+            'PRODID:-//endsummercamp//ESC22//IT',
             'BEGIN:VEVENT',
             `SUMMARY:${data.title}`,
             `DESCRIPTION:${data.description}\\nRelatori: ${data.persons}\\nDettagli: ${data.url}`,
@@ -141,5 +141,5 @@ A breve verra' pubblicato lo schedule finale.
     }
 </script>
 <noscript>
-    <p>Per visualizzare il programma, abilita JavaScript nel tuo browser o vai <a href="https://pretalx.endsummer.camp/2K25/schedule/nojs">sul calendario di Pretalx</a>.</p>
+    <p>Per visualizzare il programma, abilita JavaScript nel tuo browser o vai <a href="https://pretalx.endsummer.camp/2K26/schedule/nojs">sul calendario di Pretalx</a>.</p>
 </noscript-->

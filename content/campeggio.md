@@ -15,7 +15,7 @@ Per maggiori informazioni visita la pagina [COME ARRIVARE](/come-arrivare) :)
 
 L'ingresso è gratuito ma la logistica dell'ESC è dimensionata in funzione del numero di partecipanti, che non potranno in ogni caso superare un limite massimo. A partire dal 2014 è quindi necessario PRE-registrarsi obbligatoriamente in maniera da rispettare il criterio *First-Come First-Served* e gestire correttamente l'eventuale *Wait List*, dati i posti limitati.
 
-**[REGISTRATI SUBITO](https://pretix.eu/ESC/2K25/)** (Registrazione OBBLIGATORIA -posti limitati!)
+**[REGISTRATI SUBITO](https://pretix.eu/ESC/2K26/)** (Registrazione OBBLIGATORIA -posti limitati!)
 
 ## E$C
 
@@ -35,9 +35,9 @@ Se hai degli E$C che non riesci a utilizzare nel corso dell'evento, puoi regalar
 
 ## T-Shirt
 
-Come a ogni evento del genere che si rispetti :) sarà stampata la T-Shirt End Summer Camp 2K25 che potrai trovare soltanto ed esclusivamente all'ESC di quest'anno.
+Come a ogni evento del genere che si rispetti :) sarà stampata la T-Shirt End Summer Camp 2K26 che potrai trovare soltanto ed esclusivamente all'ESC di quest'anno.
 
-**T-Shirt assicurata? Prenotala con la [SUPPORTER REGISTRATION](https://pretix.eu/ESC/2K25) e la riceverai direttamente all'ingresso!**
+**T-Shirt assicurata? Prenotala con la [SUPPORTER REGISTRATION](https://pretix.eu/ESC/2K26) e la riceverai direttamente all'ingresso!**
 
 ## Dormire
 

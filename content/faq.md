@@ -19,7 +19,7 @@ Il programma è per la natura stessa della manifestazione in continua evoluzione
 
 ## Quanto costa il biglietto?
 
-Nulla :) Comunque donazioni volontarie all'ingresso o tramite [pretix.eu](https://pretix.eu/ESC/2K25/) sono bene accette come contributo per coprire le spese. I pasti comuni prevedono modiche sottoscrizioni. È comunque necessario PRE-registrarsi, dal momento che i posti saranno limitati: per i dettagli leggi la pagina [Campeggio](/campeggio).
+Nulla :) Comunque donazioni volontarie all'ingresso o tramite [pretix.eu](https://pretix.eu/ESC/2K26/) sono bene accette come contributo per coprire le spese. I pasti comuni prevedono modiche sottoscrizioni. È comunque necessario PRE-registrarsi, dal momento che i posti saranno limitati: per i dettagli leggi la pagina [Campeggio](/campeggio).
 
 ## Cosa sono gli E$C?
 
@@ -31,15 +31,15 @@ Nessuna in particolare, ma abbiamo pensato di fare riferimento a dei principi ge
 
 ## Come posso partecipare?
 
-Consulta [pretalx](https://pretalx.endsummer.camp/2K25/cfp) e manda le tue idee/proposte per seminari, talk e iniziative. Puoi in ogni caso supportare l'iniziativa aiutandoci a diffondere la notizia dell'evento con un link/banner sul tuo sito o con un messaggio nella mailing list del tuo gruppo (Vedi sezione [Risorse](/risorse)), oppure contribuire al finanziamento con donazioni per coprire le spese.
+Consulta [pretalx](https://pretalx.endsummer.camp/2K26/cfp) e manda le tue idee/proposte per seminari, talk e iniziative. Puoi in ogni caso supportare l'iniziativa aiutandoci a diffondere la notizia dell'evento con un link/banner sul tuo sito o con un messaggio nella mailing list del tuo gruppo (Vedi sezione [Risorse](/risorse)), oppure contribuire al finanziamento con donazioni per coprire le spese.
 
 ## Come posso proporre un mio Talk/Lab?
 
-È semplice: basta andare su [pretalx](https://pretalx.endsummer.camp/2K25/cfp) e seguire le indicazioni.
+È semplice: basta andare su [pretalx](https://pretalx.endsummer.camp/2K26/cfp) e seguire le indicazioni.
 
 ## E se sono un gruppo?
 
-Le modalità sono tendenzialmente le stesse, ma come gruppo potete anche partecipare o supportare la manifestazione proponendo [Contenuti](https://pretalx.endsummer.camp/2K25/cfp) idee e iniziative di cui siete in grado di prendervi cura interamente (es. rete wi-fi, streaming, musica, ...); in questo caso potrete apparire come gruppo tra gli organizzatori dell'evento.
+Le modalità sono tendenzialmente le stesse, ma come gruppo potete anche partecipare o supportare la manifestazione proponendo [Contenuti](https://pretalx.endsummer.camp/2K26/cfp) idee e iniziative di cui siete in grado di prendervi cura interamente (es. rete wi-fi, streaming, musica, ...); in questo caso potrete apparire come gruppo tra gli organizzatori dell'evento.
 
 ## Posso portare con me mio figlio/a?
 
@@ -105,11 +105,11 @@ Sì. Le zone per lo svolgimento di Talk e Labs e il Bar sono al coperto, e le at
 
 ## Come posso riservare un posto tenda?
 
-Non è possibile, in generale, e la disponibilità sarà assegnata secondo il criterio *First-Come-First-Served* per cui ti consigliamo di arrivare già nei primi giorni :) Se invece scegli la [SUPPORTER REGISTRATION](https://pretix.eu/ESC/2K25/) potrai avere un posto tenda riservato in "Area-A".
+Non è possibile, in generale, e la disponibilità sarà assegnata secondo il criterio *First-Come-First-Served* per cui ti consigliamo di arrivare già nei primi giorni :) Se invece scegli la [SUPPORTER REGISTRATION](https://pretix.eu/ESC/2K26/) potrai avere un posto tenda riservato in "Area-A".
 
 ## Come posso riservare una maglietta?
 
-L'unico modo per riservare una maglietta (e altre simpatiche cosine) è scegliere la [SUPPORTER REGISTRATION](https://pretix.eu/ESC/2K25/); viceversa puoi procedere presentandoti direttamente sul luogo dell'evento, sempre e comunque dopo aver fatto almeno la BASIC REGISTRATION; in questo caso vale il criterio *First-Come-First-Served*, cioè si dà la precedenza a chi prima arriva fino a esaurimento della disponibilità.
+L'unico modo per riservare una maglietta (e altre simpatiche cosine) è scegliere la [SUPPORTER REGISTRATION](https://pretix.eu/ESC/2K26/); viceversa puoi procedere presentandoti direttamente sul luogo dell'evento, sempre e comunque dopo aver fatto almeno la BASIC REGISTRATION; in questo caso vale il criterio *First-Come-First-Served*, cioè si dà la precedenza a chi prima arriva fino a esaurimento della disponibilità.
 
 ## Riguardo ai laboratori che si terranno nei diversi giorni, saranno replicati, oppure durano per tutti i giorni per cui sono segnati in programma?
 
